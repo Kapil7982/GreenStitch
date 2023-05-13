@@ -1,5 +1,5 @@
 # GreenStitch
-Application of spring security for login and signup with Jwt token. Maintaining the Login and Signup with the Jwt token with role where they have authorities accoring to their role. Like Admin have authority to see the all customer list. 
+Application of spring security for login and signup with Jwt token. Maintaining the Login and Signup with the Jwt token. 
 
 ## REST API Use for below functions
 - Create Admin an Customer account.
