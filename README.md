@@ -37,6 +37,7 @@ spring.datasource.password=port
 
 
 ## Swagger-UI
-![image](https://github.com/Kapil7982/GreenStitch/assets/103938868/57b566d5-b92c-4d1d-bf0a-83618ccb2d88)
+![WhatsApp Image 2023-05-17 at 3 44 21 PM](https://github.com/Kapil7982/GreenStitch/assets/103938868/00255cb5-43a7-4ccf-b7ec-8778f769d289)
+
 
 
