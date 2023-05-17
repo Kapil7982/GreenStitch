@@ -32,7 +32,7 @@ public class CustomerUserDetailsService implements UserDetailsService {
 			
 			Customer customer= opt.get();
 			
-			List<GrantedAuthority> authorities= new ArrayList<>()
+			List<GrantedAuthority> authorities= new ArrayList<>();
 			
 			
 			return new User(customer.getEmail(), customer.getPassword(), authorities);

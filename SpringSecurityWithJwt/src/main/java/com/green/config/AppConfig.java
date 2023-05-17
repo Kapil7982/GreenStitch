@@ -22,6 +22,7 @@ public class AppConfig {
 		.csrf().disable()
 		.authorizeHttpRequests()
 		.requestMatchers(HttpMethod.POST, "/customers").permitAll()
+		.requestMatchers("/swagger-ui*/**","/v3/api-docs/**").permitAll()
 		.anyRequest().authenticated().and()
 		.addFilterAfter(new JwtTokenGeneratorFilter(), BasicAuthenticationFilter.class)
 		.addFilterBefore(new JwtTokenValidatorFilter(), BasicAuthenticationFilter.class)

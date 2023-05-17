@@ -32,21 +32,24 @@ public class LoginController {
 
 	}
 
-	@PostMapping("/signout")
-	public ResponseEntity<Void> signout(HttpServletRequest request, HttpServletResponse response) {
-		// invalidate token
-		Cookie[] cookies = request.getCookies();
-		if (cookies != null) {
-			for (Cookie cookie : cookies) {
-				if (cookie.getName().equals("access_token")) {
-					cookie.setValue("");
-					cookie.setMaxAge(0);
-					cookie.setPath("/");
-					response.addCookie(cookie);
-				}
-			}
-		}
-		return ResponseEntity.ok().build();
-	}
+	// @GetMapping("/signout")
+	// public String signout() {
+
+	// return "Logout Succesfully!";
+
+	// // invalidate token
+	// // Cookie[] cookies = request.getCookies();
+	// // if (cookies != null) {
+	// // for (Cookie cookie : cookies) {
+	// // if (cookie.getName().equals("access_token")) {
+	// // cookie.setValue("");
+	// // cookie.setMaxAge(0);
+	// // cookie.setPath("/");
+	// // response.addCookie(cookie);
+	// // }
+	// // }
+	// // }
+	// // return ResponseEntity.ok().build();
+	// }
 
 }
