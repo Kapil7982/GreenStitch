@@ -34,3 +34,9 @@ spring.datasource.password=port
 1.  User can Login and Signup.
 2.  User can see one particular.
 3.  User can see all the list.
+
+
+## Swagger-UI
+![image](https://github.com/Kapil7982/GreenStitch/assets/103938868/57b566d5-b92c-4d1d-bf0a-83618ccb2d88)
+
+
